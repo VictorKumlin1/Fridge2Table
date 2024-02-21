@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <script
+      src="https://kit.fontawesome.com/24588d6d16.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Fridge2Table</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fridge2Table</h1>
+      <nav class="länkar">
+        <a href="sida.html">Gå till sida 1</a>
+      </nav>
+    </header>
+    <main>
+      <div class="startsida">
+        <img class="tallrik" src="tallrik.png" alt="bild på tallrik" />
+        <span class="slogan">
+          Search it,<span class="break"> we have it</span>
+        </span>
+      </div>
+      <div class="container">
+        <section class="måltid-wrapper">
+          <div class="måltid-sök">
+            <h2 class="title">Find a recipe</h2>
+
+            <div class="måltid-sök-box">
+              <input
+                type="text"
+                class="search-control"
+                placeholder="Write an ingredient"
+                id="search-input"
+              />
+              <button type="submit" class="sök-knapp knapp" id="sök-knapp">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+
+          <section class="måltid-resultat">
+            <h2 class="title">The results:</h2>
+            <div id="måltid"></div>
+          </section>
+
+          <section class="meal-details">
+            <button
+              type="button"
+              class="btn recipe-close-btn"
+              id="recipe-close-btn"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="meal-details-content"></div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="ikoner">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+      <p>Copyright © 2023 Fridge2Table</p>
+    </footer>
+    <script src="app2.js"></script>
+  </body>
+</html>
