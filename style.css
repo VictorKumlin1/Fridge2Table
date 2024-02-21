@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: white;
+}
+
+h1 {
+  margin: auto 30px auto 20px;
+  font-family: "Righteous", cursive;
+  font-size: 65px;
+}
+
+h2 {
+  /* font-family: "Dongle", sans-serif; */
+  font-size: 70px;
+  margin-left: 230px;
+}
+
+header {
+  height: 105px;
+  background-color: rgb(255, 255, 255);
+  margin: 30px auto 10px auto;
+  display: flex;
+  width: 1000px;
+  border-radius: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.startsida {
+  font-size: 30px;
+  height: 618px;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.slogan,
+.break {
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+  text-shadow: 20px 10px 20px #0000007b;
+}
+
+.slogan {
+  display: inline-block;
+  color: #ed7054;
+}
+
+.break {
+  display: block;
+  color: #79a581;
+}
+
+.tallrik {
+  height: 618px;
+  margin-left: 110px;
+}
+
+* {
+  margin: 0;
+}
+
+.länkar {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  font-family: "Dongle", sans-serif;
+  font-size: 40px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  transform: translateY(-2px) scale(1.02);
+  transition: 100ms;
+}
+
+footer {
+  font-family: "Tilt Warp";
+  justify-content: center;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.ikoner {
+  font-size: 30px;
+}
+
+p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a {
+  color: black;
+}
+
+#txtsök {
+  color: black;
+  background-color: #ffffff;
+  border: solid #1e1e1e 1px;
+  border-radius: 5px;
+  margin: 30px 0 0 230px;
+}
+
+::placeholder {
+  color: black;
+  font-family: "Dongle", sans-serif;
+  font-size: 20px;
+}
+
+.sökresultat {
+  background-color: #ffffff;
+  width: 60vw;
+  height: 400px;
+  margin: 0 auto 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.test {
+  height: 900px;
+  width: 20px;
+  background-color: black;
+}
+
+.startsida button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+:root {
+  --rosa: #ed7054;
+  --rosa-dark: #d0624a;
+}
+
+body {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+
+.knapp {
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 17px;
+}
+.text {
+  opacity: 0.8;
+}
+.title {
+  font-size: 40px;
+  margin-bottom: 16px;
+  margin-right: 200px;
+}
+
+.container {
+  min-height: 100vh;
+}
+.måltid-wrapper {
+  max-width: 1280px;
+  margin: 30px auto;
+  padding: 32px;
+  background: #ffffff;
+  text-align: center;
+}
+.måltid-sök {
+  margin: 32px 0;
+}
+.måltid-sök cite {
+  font-size: 16px;
+}
+.måltid-sök-box {
+  margin: 19px 0;
+  display: flex;
+  align-items: stretch;
+}
+.search-control,
+.sök-knapp {
+  width: 100%;
+}
+.search-control {
+  padding: 0 16px;
+  font-size: 18px;
+  font-family: inherit;
+  outline: 0;
+  border: 2px solid var(--rosa);
+  color: var(--rosa);
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+.search-control::placeholder {
+  color: var(--rosa);
+}
+.sök-knapp {
+  width: 55px;
+  height: 55px;
+  font-size: 30;
+  background: var(--rosa);
+  color: #fff;
+  border: none;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  transition: all 0.4s linear;
+}
+.sök-knapp:hover {
+  background: var(--rosa-dark);
+}
+.måltid-resultat {
+  margin-top: 64px;
+}
+#måltid {
+  margin: 38px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.meal-item {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+  margin: 32px 0;
+}
+.meal-img img {
+  width: 100%;
+  display: block;
+  height: 432px;
+}
+.meal-name {
+  padding: 24px 8px;
+}
+.meal-name h3 {
+  font-size: 29.1px;
+}
+.recipe-btn {
+  text-decoration: none;
+  color: #fff;
+  background: var(--rosa);
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 0;
+  display: block;
+  width: 175px;
+  margin: 16px auto;
+  border-radius: 32px;
+}
+.recipe-btn:hover {
+  background: var(--rosa);
+}
+
+/* måltid detaljer */
+.meal-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background: var(--rosa);
+  border-radius: 16px;
+  width: 90%;
+  height: 90%;
+  overflow-y: scroll;
+  display: none;
+  padding: 32px 0;
+}
+
+.meal-details {
+  background: #f0f0f0;
+  border-radius: 32px;
+  width: 10px;
+}
+
+/* saker som har med js att göra */
+.showRecipe {
+  display: block;
+}
+
+.meal-details-content {
+  margin: 32px;
+}
+
+.recipe-close-btn {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  font-size: 30px;
+  background: #fff;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.recipe-title {
+  text-align: center;
+  padding-bottom: 16px;
+  font-size: 50px;
+  /* padding-right: 700px; */
+  padding-right: 250px;
+}
+.recipe-category {
+  background: #fff;
+  font-weight: 600;
+  color: var(--rosa);
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 37px;
+}
+
+.recipe-instruct {
+  padding: 16px 0;
+  font-size: 22.9px;
+}
+
+.recipe-instruct h3 {
+  font-size: 59.9px;
+  padding: 16px 0;
+}
+
+.recipe-meal-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.recipe-link {
+  margin: 22px 0;
+  font-size: 14px;
+}
+.recipe-link a {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  transition: all 0.4s linear;
+}
+.recipe-link a:hover {
+  opacity: 0.8;
+}
+
+.notFound {
+  color: var(--rosa);
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.meal-search-box {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meal-item {
+  margin: 0;
+}
+.meal-details {
+  width: 700px;
+  background-color: var(--rosa);
+}
+
+@media screen and (max-width: 600px) {
+  .tallrik {
+    display: none;
+  }
+  #meal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .länkar {
+    display: none;
+  }
+
+  .slogan,
+  .break {
+    font-size: 70px;
+    /* margin-right: 57.5px; */
+  }
+  h1 {
+    margin: auto;
+  }
+}
